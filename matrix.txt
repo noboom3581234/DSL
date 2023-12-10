@@ -1,0 +1,12 @@
+import numpy as ny
+x = ny.array([[4, 6], [2, 8]])
+y = ny.array([[1, 9], [6, 1]])
+print("The element wise addition of matrix is : ")
+print(ny.add(x, y))
+print("The element wise subtraction of matrix is : ")
+print(ny.subtract(x, y))
+print ("The product of matrices is : ")
+print (ny.dot(x,y))
+print("The transpose of given matrix is : ")
+print(x.T)
+print(y.T)
